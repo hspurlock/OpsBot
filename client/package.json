@@ -1,0 +1,20 @@
+{
+  "name": "opsbot-client",
+  "version": "0.1.0",
+  "description": "OpsBot Client - Azure Relay sender for connecting to OpsBot server",
+  "main": "relay_sender.js",
+  "scripts": {
+    "start": "node relay_sender.js",
+    "dev": "nodemon relay_sender.js"
+  },
+  "dependencies": {
+    "hyco-ws": "^1.0.6",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "opsbot-agent",
+  "version": "0.1.0",
+  "description": "OpsBot Deployment Agent - Executes Terraform deployments for OpsBot",
+  "main": "deployment_agent.js",
+  "scripts": {
+    "start": "node deployment_agent.js",
+    "dev": "nodemon deployment_agent.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

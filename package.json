@@ -1,0 +1,20 @@
+{
+  "name": "opsbot",
+  "version": "0.1.0",
+  "description": "OpsBot - Management Control Plane with Azure Relay for Terraform deployments",
+  "scripts": {
+    "install:all": "npm install && npm run install:server && npm run install:client && npm run install:agent",
+    "install:server": "cd server && npm install",
+    "install:client": "cd client && npm install",
+    "install:agent": "cd agent && npm install",
+    "start:server": "cd server && npm start",
+    "start:client": "cd client && npm start",
+    "start:agent": "cd agent && npm start",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "dev:agent": "cd agent && npm run dev"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

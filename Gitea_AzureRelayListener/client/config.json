@@ -1,0 +1,13 @@
+{
+    "namespace": "gitea-relay-ns.servicebus.usgovcloudapi.net",
+    "path": "gitea-connection",
+    "keyrule": "RootManageSharedAccessKey",
+    "key": "",
+    "gitea": {
+        "host": "gitea-app.azurewebsites.us",
+        "port": 443
+    },
+    "proxy": {
+        "port": 8000
+    }
+}

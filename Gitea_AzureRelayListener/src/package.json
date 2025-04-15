@@ -1,0 +1,16 @@
+{
+  "name": "azure-relay-gitproxy",
+  "version": "1.0.0",
+  "description": "Azure Relay WebSocket implementation for Git proxy",
+  "main": "gitea-listener.js",
+  "scripts": {
+    "start": "node health.js",
+    "start-gitea-listener": "node gitea-listener.js",
+    "health": "node health.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "hyco-ws": "^1.0.5",
+    "ws": "^8.14.2"
+  }
+}
