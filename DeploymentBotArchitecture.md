@@ -7,7 +7,7 @@ This document outlines the architecture for OpsBot with Azure Relay integration,
 ```
 ┌─────────────────┐                  ┌───────────────────┐                  ┌─────────────────────┐
 │                 │                  │                   │                  │                     │
-│  Local Machine  │◄──Azure Relay──►│   OpsBot Server    │◄───────────────►│  Deployment Agents  │
+│  Local Machine  │◄──Azure Relay──► │   OpsBot Server   │◄───────────────► │  Deployment Agents  │
 │  (Relay Sender) │                  │  (Relay Listener) │                  │                     │
 └─────────────────┘                  └───────────────────┘                  └─────────────────────┘
 ```
@@ -54,7 +54,7 @@ A client application that:
 
 ```
 ┌─────────────────────────────────────────┐
-│               Local Client               │
+│               Local Client              │
 │                                         │
 │  ┌─────────────┐     ┌──────────────┐   │
 │  │ Azure Relay │     │ CLI/GUI      │   │
